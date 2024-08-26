@@ -8,22 +8,18 @@ export default {
     extend: {
       colors:{
         bgColor : '#FEF6ED',
-        primaryColor : '#9DBA94',
-        secondaryColor : '#AFAFAF',
-       
-        btnColor: '#1A265A',
-
-
 
         textColor: '#3D3D3D',
-        bgClr: '#ffffff',
         btnBg: '#F2D26D',
 
         //hero
         heroHeadline : '#F2D26D',
 
         //services
-        serviceTxtColor: '#F2D26D'
+        serviceTxtColor: '#F2D26D',
+
+        //about
+        aboutTxtColor: '#F2D26D'
       },
 
       fontFamily: {
