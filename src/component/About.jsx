@@ -2,13 +2,13 @@ import AboutImg from '../assets/about.jpg';
 
 const About = () => {
     return (
-        <section className=" py-52">
+        <section className="py-52 mx-5 lg:mx-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col lg:flex-row items-start justify-between">
                     <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
                         <h2 className="text-2xl text-aboutTxtColor uppercase mb-10">About</h2>
-                        <p className="text-lg text-gray-700 leading-relaxed tracking-wider">
-                            <span className="block text-4xl font-bold uppercase">
+                        <p className="text-lg text-gray-700 leading-relaxed tracking-wider font-normal">
+                            <span className="block text-2xl lg:text-4xl font-bold uppercase">
                                 I am Carolina, with about 7 years of experience as a personal trainer.
                             </span>
                             <br></br> 
