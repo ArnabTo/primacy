@@ -24,7 +24,7 @@ export default {
       },
 
       fontFamily: {
-        montserrat: ['"Montserrat"', 'sans-serif'],
+        manrope: ['Manrope', 'sans-serif'],
         lato: ['Lato', 'sans-serif'], // Adding Bodoni Moda as a custom font
       },
     },

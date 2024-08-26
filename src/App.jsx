@@ -1,6 +1,7 @@
 import './App.css'
 import Hero from './component/Hero'
 import Navbar from './component/Navbar'
+import Services from './component/Services'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className='bg-[#eff6ff]'>
       <Navbar />
       <Hero/>
+      <Services/>
     </div>
   )
 }
