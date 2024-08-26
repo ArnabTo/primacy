@@ -17,10 +17,10 @@ export default {
 
         textClr: '#00000',
         bgClr: '#ffffff',
-        btnBg: '#01DC71',
+        btnBg: '#F2D26D',
 
         //hero
-        heroHeadline : '#01DC71',
+        heroHeadline : '#F2D26D',
       },
 
       fontFamily: {

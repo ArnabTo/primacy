@@ -1,5 +1,6 @@
 import { Button, Dropdown } from "antd";
 import { useState } from "react";
+import Logo from '../assets/logo.jpg'
 const Navbar = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,7 +45,7 @@ const Navbar = () => {
 
                         <div className="flex justify-between items-center gap-24 animate__animated animate__bounceIn">
                             <div className="nav-logo flex items-center gap-1 transition-all delay-75">
-                                <p className="sticky-item text-textColor text-3xl font-extrabold">Primacy</p>
+                                <img src={Logo} className="w-20" alt="logo"/>
                             </div>
                             <div className="nav-menues">
                                 <ul className="flex justify-center items-center space-x-5">
@@ -72,13 +73,6 @@ const Navbar = () => {
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
                                         <a href="#features"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium">Contact Us</Button></a>
                                     </li>
-                                    <li
-                                        className="sticky-item font-medium text-lg mr-12 cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <button
-                                            className="bg-btnBg text-textColor px-10 py-2 rounded-sm text-base font-semibold hover:bg-white hover:text-[#12141D] transition-all delay-75">Sign
-                                            in
-                                        </button>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -87,9 +81,9 @@ const Navbar = () => {
                     <div className="block lg:hidden">
                         <div className="flex justify-between">
                             <div className="nav-logo flex gap-1">
-                                <p className="sticky-item text-textColor text-base font-semibold">Primacy</p>
+                            <img src={Logo} className="w-20" alt="logo"/>
                             </div>
-                            <div>
+                            <div className="flex">
                                 <button onClick={toggleMenu} aria-label="Menu" className="menu-toggler text-black">
                                     <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 1H25" stroke="#000" strokeWidth="1.5" strokeLinecap="round" />
@@ -126,13 +120,6 @@ const Navbar = () => {
                                                 <li
                                                     className="w-full sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
                                                     <a href="#features"><Button className="w-full bg-transparent border-none text-textColor text-base font-medium">Contact Us</Button></a>
-                                                </li>
-                                                <li
-                                                    className="w-full sticky-item font-medium text-lg cursor-pointer transition-all delay-75">
-                                                    <button
-                                                        className="bg-btnBg w-full text-textColor px-4 py-2 rounded-md text-base font-semibold hover:bg-white hover:text-[#12141D] transition-all delay-75">Sign
-                                                        in
-                                                    </button>
                                                 </li>
                                             </ul>
                                         </div>
