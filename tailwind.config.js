@@ -11,7 +11,13 @@ export default {
         primaryColor : '#9DBA94',
         secondaryColor : '#AFAFAF',
         textColor: '#3D3D3D',
-        btnColor: '#1A265A'
+        btnColor: '#1A265A',
+
+
+
+        textClr: '#00000',
+        bgClr: '#ffffff',
+        btnBg: '#01DC71',
       }
     },
   },
