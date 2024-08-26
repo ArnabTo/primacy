@@ -18,7 +18,15 @@ export default {
         textClr: '#00000',
         bgClr: '#ffffff',
         btnBg: '#01DC71',
-      }
+
+        //hero
+        heroHeadline : '#01DC71',
+      },
+
+      fontFamily: {
+        montserrat: ['"Montserrat"', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'], // Adding Bodoni Moda as a custom font
+      },
     },
   },
   plugins: [],
