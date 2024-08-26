@@ -7,7 +7,7 @@ const Services = () => {
         <div className="bg-white pt-20 lg:pt-24 pb-36">
             <div className='max-w-7xl mx-auto'>
                 <div className=' mt-20 my-24'>
-                    <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Our Services</h1>
+                    <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Our <span className='text-serviceTxtColor'>Services</span></h1>
                     <p className='text-textColor text-sm lg:text-xl text-center font-manrope mx-3'>Unlock your potential with our expert personal training, assessments, <br></br> and nutritional guidance.</p>
                 </div>
 

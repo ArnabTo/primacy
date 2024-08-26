@@ -7,7 +7,7 @@ function App() {
 
 
   return (
-    <div className='bg-[#eff6ff]'>
+    <div className='bg-bgColor'>
       <Navbar />
       <Hero/>
       <Services/>

@@ -10,17 +10,20 @@ export default {
         bgColor : '#FEF6ED',
         primaryColor : '#9DBA94',
         secondaryColor : '#AFAFAF',
-        textColor: '#3D3D3D',
+       
         btnColor: '#1A265A',
 
 
 
-        textClr: '#00000',
+        textColor: '#3D3D3D',
         bgClr: '#ffffff',
         btnBg: '#F2D26D',
 
         //hero
         heroHeadline : '#F2D26D',
+
+        //services
+        serviceTxtColor: '#F2D26D'
       },
 
       fontFamily: {
