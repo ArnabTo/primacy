@@ -1,6 +1,7 @@
 import { Button, Dropdown } from "antd";
 import { useState } from "react";
 import Logo from '../assets/logo.jpg'
+import '../App.css'
 const Navbar = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
