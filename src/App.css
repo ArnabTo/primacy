@@ -1,7 +1,3 @@
-:where(.css-dev-only-do-not-override-11lehqq).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
-  color: #F2D26D;
-}
-
 :where(.css-dev-only-do-not-override-11lehqq).ant-btn.ant-btn-circle.ant-btn {
   min-width: 67px;
   height: 4rem;
@@ -16,4 +12,8 @@
 :where(.css-dev-only-do-not-override-11lehqq).ant-input-outlined:focus, :where(.css-dev-only-do-not-override-11lehqq).ant-input-outlined:focus-within {
   border-color: #F2D26D;
   background-color: #FEF6ED;
+}
+
+#nav-link:hover{
+  color: #F2D26D !important;
 }

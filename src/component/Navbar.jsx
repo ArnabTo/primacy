@@ -52,11 +52,11 @@ const Navbar = () => {
                                 <ul className="flex justify-center items-center space-x-5">
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <a href="#features"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium">Home</Button></a>
+                                        <a href="#features"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Home</Button></a>
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <a href="#features"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium">The Studios</Button></a>
+                                        <a href="#features"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium " id="nav-link">The Studios</Button></a>
                                     </li>
                                     <li
                                         className="sticky-item text-base cursor-pointer transition-all delay-75 hover:scale-105">
@@ -67,12 +67,12 @@ const Navbar = () => {
                                             placement="bottom"
                                             arrow
                                         >
-                                            <Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium">Services</Button>
+                                            <Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Services</Button>
                                         </Dropdown>
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <a href="#features"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium">Contact Us</Button></a>
+                                        <a href="#features"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Contact Us</Button></a>
                                     </li>
                                 </ul>
                             </div>
