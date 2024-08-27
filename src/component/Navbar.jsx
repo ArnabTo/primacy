@@ -48,7 +48,7 @@ const Navbar = () => {
 
                         <div className="flex justify-between items-center gap-24 animate__animated animate__bounceIn">
                             <div className="nav-logo flex items-center gap-1 transition-all delay-75">
-                                <img src={Logo} className="w-20" alt="logo"/>
+                               <a href="/"><img src={Logo} className="w-20" alt="logo"/></a>
                             </div>
                             <div className="nav-menues">
                                 <ul className="flex justify-center items-center space-x-5">
