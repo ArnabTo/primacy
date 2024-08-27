@@ -1,3 +1,8 @@
 :where(.css-dev-only-do-not-override-11lehqq).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
   color: #F2D26D;
 }
+
+:where(.css-dev-only-do-not-override-11lehqq).ant-btn.ant-btn-circle.ant-btn {
+  min-width: 67px;
+  height: 4rem;
+}
