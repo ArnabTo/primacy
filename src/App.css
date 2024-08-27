@@ -5,25 +5,25 @@
 
 
 #nav-link:hover{
-  color: #ffb703 !important;
+  color: #F2D26D !important;
 }
 
 #contact-input:hover{
-  border-color: #ffb703;
+  border-color: #F2D26D;
   background-color: #FEF6ED;
 }
 #contact-input:focus{
-  border-color: #ffb703;
+  border-color: #F2D26D;
   background-color: #FEF6ED;
 }
 
 #testi-button:hover{
-  border-color: #ffb703;
+  border-color: #F2D26D;
   background-color: #FEF6ED;
-  color: #ffb703;
+  color: #F2D26D;
 }
 #testi-button:focus{
-  border-color: #ffb703;
+  border-color: #F2D26D;
   background-color: #FEF6ED;
-  color: #ffb703;
+  color: #F2D26D;
 }
