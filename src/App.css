@@ -1,19 +1,18 @@
-:where(.css-dev-only-do-not-override-11lehqq).ant-btn.ant-btn-circle.ant-btn {
+/* :where(.css-dev-only-do-not-override-11lehqq).ant-btn.ant-btn-circle.ant-btn {
   min-width: 67px;
   height: 4rem;
-}
+} */
 
-
-:where(.css-dev-only-do-not-override-11lehqq).ant-input-outlined:hover {
-  border-color: #F2D26D;
-  background-color: #FEF6ED;
-}
-
-:where(.css-dev-only-do-not-override-11lehqq).ant-input-outlined:focus, :where(.css-dev-only-do-not-override-11lehqq).ant-input-outlined:focus-within {
-  border-color: #F2D26D;
-  background-color: #FEF6ED;
-}
 
 #nav-link:hover{
   color: #F2D26D !important;
+}
+
+#contact-input:hover{
+  border-color: #F2D26D;
+  background-color: #FEF6ED;
+}
+#contact-input:focus{
+  border-color: #F2D26D;
+  background-color: #FEF6ED;
 }

@@ -26,21 +26,21 @@ const Contact = () => {
                         <form>
                             <div>
                                 <label className="font-poppins text-sm font-light ">Name</label>
-                                <Input className="py-2 border-contactInputBorder rounded-sm" type="text" />
+                                <Input className="py-2 border-contactInputBorder rounded-sm" type="text" id="contact-input" />
                             </div>
                             <div className="flex flex-col lg:flex-row justify-between gap-2">
                                 <span className="w-full ">
                                     <label className="font-poppins text-sm font-light">Your Email</label>
-                                    <Input className="w-full py-2 border-contactInputBorder rounded-sm" />
+                                    <Input className="w-full py-2 border-contactInputBorder rounded-sm" id="contact-input" />
                                 </span>
                                 <span className="w-full ">
                                     <label className="font-poppins text-sm font-light">Whatsapp</label>
-                                    <Input className="w-full py-2 border-contactInputBorder rounded-sm" />
+                                    <Input className="w-full py-2 border-contactInputBorder rounded-sm" id="contact-input" />
                                 </span>
                             </div>
                             <div className="mb-2">
                                 <label className="font-poppins text-sm font-light">Message</label>
-                                <TextArea className="py-2 border-contactInputBorder rounded-sm" />
+                                <TextArea className="py-2 border-contactInputBorder rounded-sm" id="contact-input" />
                             </div>
                             <button className="bg-transparent w-full border border-contactInputBorder py-2 rounded-sm text-sm font-medium hover:bg-[#FEF6ED]">Send</button>
                         </form>
