@@ -16,3 +16,14 @@
   border-color: #F2D26D;
   background-color: #FEF6ED;
 }
+
+#testi-button:hover{
+  border-color: #F2D26D;
+  background-color: #FEF6ED;
+  color: #F2D26D;
+}
+#testi-button:focus{
+  border-color: #F2D26D;
+  background-color: #FEF6ED;
+  color: #F2D26D;
+}

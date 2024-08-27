@@ -2,7 +2,8 @@ import { Button, Dropdown } from "antd";
 import { useState } from "react";
 import Logo from '../assets/logo.jpg'
 import '../App.css'
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
+
 const Navbar = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,7 +54,7 @@ const Navbar = () => {
                                 <ul className="flex justify-center items-center space-x-5">
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <Link href="/"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Home</Button></Link>
+                                        <a href="/"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Home</Button></a>
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
@@ -73,7 +74,12 @@ const Navbar = () => {
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <a href="#features"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Contact Us</Button></a>
+                                            <Link to="contact-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Contact</Button></Link>
+                                        {/* <a href="#features"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Contact Us</Button></a> */}
+                                    </li>
+                                    <li
+                                        className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
+                                        <a href="/personal-training"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Blog</Button></a>
                                     </li>
                                 </ul>
                             </div>
@@ -101,14 +107,14 @@ const Navbar = () => {
                                             <ul className="flex flex-col justify-center items-center space-y-10">
                                                 <li
                                                     className="w-full sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <a href="#features"><Button className="w-full bg-transparent border-none text-textColor text-base font-medium">Home</Button></a>
+                                                    <a href="/"><Button className="w-full bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Home</Button></a>
                                                 </li>
                                                 <li
                                                     className="w-full sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <a href="#features"><Button className="w-full bg-transparent border-none text-textColor text-base font-medium">The Studios</Button></a>
+                                                    <a href="#features"><Button className="w-full bg-transparent border-none text-textColor text-base font-medium" id="nav-link">The Studios</Button></a>
                                                 </li>
                                                 <li
-                                                    className="w-full sticky-item text-textColor font-medium text-base cursor-pointer transition-all delay-75 hover:scale-105">
+                                                    className="w-full sticky-item text-textColor font-medium text-base cursor-pointer transition-all delay-75 hover:scale-105" >
                                                     <Dropdown
                                                         menu={{
                                                             items,
@@ -116,12 +122,12 @@ const Navbar = () => {
                                                         placement="bottomCenter"
                                                         arrow
                                                     >
-                                                        <Button className="w-full bg-transparent border-none text-textColor text-base font-medium">Services</Button>
+                                                        <Button className="w-full bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Services</Button>
                                                     </Dropdown>
                                                 </li>
                                                 <li
                                                     className="w-full sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <a href="#features"><Button className="w-full bg-transparent border-none text-textColor text-base font-medium">Contact Us</Button></a>
+                                                    <a href="#features"><Button className="w-full bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Contact Us</Button></a>
                                                 </li>
                                             </ul>
                                         </div>

@@ -3,7 +3,7 @@ import TextArea from "antd/es/input/TextArea";
 
 const Contact = () => {
     return (
-        <div className="mb-10">
+        <div className="mb-10" id="contact-section">
             <div className="w-full mx-auto">
                 <div className="flex flex-col lg:flex-row justify-between items-center mx-8 md:mx-36 gap-20 lg:gap-0">
                     <div className="w-full flex flex-col">
