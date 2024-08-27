@@ -2,7 +2,7 @@
 
 const PhysicalAssessments = () => {
     return (
-        <section className="bg-white">
+        <section className="bg-white mb-44">
             <div className=' mt-20 my-24'>
                 <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Physical <span className='text-serviceTxtColor'>Assessments</span></h1>
                 <p className='text-textColor text-lg lg:text-xl text-center font-manrope mx-16'>

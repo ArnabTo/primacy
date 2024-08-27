@@ -29,7 +29,7 @@ const Testimonials = () => {
     };
 
     return (
-        <div className="pt-5 mb-36 lg:py-16">
+        <div className="pt-5 mb-36 lg:py-16" id='testimonial-section'>
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <div className=' mt-24 mb-6 lg:mb-12'>
                     <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Our <span className='text-serviceTxtColor'>Testimonials</span></h1>

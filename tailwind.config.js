@@ -26,7 +26,7 @@ export default {
         aboutTxtColor: '#F2D26D',
 
         //conact
-        conTxtColor: '#564100',
+        conTxtColor: '#f2d26d',
         contactInputBorder: '#F2D26D'
       },
 
