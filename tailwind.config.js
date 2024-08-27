@@ -13,21 +13,21 @@ export default {
         bgColor : '#FEF6ED',
 
         textColor: '#3D3D3D',
-        btnBg: '#F2D26D',
+        btnBg: '#ffb703',
 
         //hero
-        heroHeadline : '#F2D26D',
+        heroHeadline : '#ffb703',
 
         //services
-        serviceTxtColor: '#F2D26D',
+        serviceTxtColor: '#ffb703',
 
         //about
         abtBgColor: '#FEF6ED',
-        aboutTxtColor: '#F2D26D',
+        aboutTxtColor: '#ffb703',
 
         //conact
-        conTxtColor: '#564100',
-        contactInputBorder: '#F2D26D'
+        conTxtColor: '#ffb703',
+        contactInputBorder: '#ffb703'
       },
 
       fontFamily: {

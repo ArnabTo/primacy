@@ -57,10 +57,6 @@ const Navbar = () => {
                                         <a href="/"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Home</Button></a>
                                     </li>
                                     <li
-                                        className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <a href="/studios"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium " id="nav-link">The Studios</Button></a>
-                                    </li>
-                                    <li
                                         className="sticky-item text-base cursor-pointer transition-all delay-75 hover:scale-105">
                                         <Dropdown
                                             menu={{
@@ -108,10 +104,6 @@ const Navbar = () => {
                                                 <li
                                                     className="w-full sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
                                                     <a href="/"><Button className="w-full bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Home</Button></a>
-                                                </li>
-                                                <li
-                                                    className="w-full sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <a href="#features"><Button className="w-full bg-transparent border-none text-textColor text-base font-medium" id="nav-link">The Studios</Button></a>
                                                 </li>
                                                 <li
                                                     className="w-full sticky-item text-textColor font-medium text-base cursor-pointer transition-all delay-75 hover:scale-105" >
