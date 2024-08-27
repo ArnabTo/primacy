@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div className="mb-10">
             <div className="w-full mx-auto">
-                <div className="flex flex-col lg:flex-row justify-between items-center mx-8 md:mx-36">
+                <div className="flex flex-col lg:flex-row justify-between items-center mx-8 md:mx-36 gap-20 lg:gap-0">
                     <div className="w-full flex flex-col">
                         <div>
                             <h1 className="text-3xl font-extrabold font-manrope text-[#F2D26D]">Contact</h1>
@@ -22,7 +22,7 @@ const Contact = () => {
                             <p className="text-lg font-light font-poppins"><span className="text-xl font-bold font-manrope">Address</span><br></br>Leiria, 1C</p>
                         </div>
                     </div>
-                    <div className="mb-10 w-[90%]">
+                    <div className="mb-10 w-full">
                         <form>
                             <div>
                                 <label className="font-poppins text-sm font-light ">Name</label>

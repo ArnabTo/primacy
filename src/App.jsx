@@ -1,10 +1,7 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
-import About from './component/About'
-import Contact from './component/Contact'
-import Hero from './component/Hero'
 import Navbar from './component/Navbar'
-import Services from './component/Services'
-import Testimonials from './component/Testimonial'
+
 
 function App() {
 
@@ -12,11 +9,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hero/>
-      <Services/>
-      <About/>
-      <Testimonials/>
-      <Contact/>
+      <Outlet></Outlet>
     </div>
   )
 }

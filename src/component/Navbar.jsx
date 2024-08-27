@@ -2,6 +2,7 @@ import { Button, Dropdown } from "antd";
 import { useState } from "react";
 import Logo from '../assets/logo.jpg'
 import '../App.css'
+import { Link } from "react-router-dom";
 const Navbar = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
         {
             key: '1',
             label: (
-                <a className="text-base font-medium px-5" target="_blank" rel="noopener noreferrer" href="https://www.antgroup.com">
+                <a className="text-base font-medium px-5" rel="noopener noreferrer" href="/personal-training">
                     Personal Training
                 </a>
             ),
@@ -21,7 +22,7 @@ const Navbar = () => {
         {
             key: '2',
             label: (
-                <a className="text-base font-medium px-5" target="_blank" rel="noopener noreferrer" href="https://www.aliyun.com">
+                <a className="text-base font-medium px-5" rel="noopener noreferrer" href="/physical-assessments">
                     Physical Assessments
                 </a>
             ),
@@ -29,7 +30,7 @@ const Navbar = () => {
         {
             key: '3',
             label: (
-                <a className="text-base font-medium px-5" target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+                <a className="text-base font-medium px-5" rel="noopener noreferrer" href="/nutritional-guidance">
                     Nutritional Guidance
                 </a>
             ),
@@ -52,11 +53,11 @@ const Navbar = () => {
                                 <ul className="flex justify-center items-center space-x-5">
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <a href="#features"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Home</Button></a>
+                                        <Link href="/"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Home</Button></Link>
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <a href="#features"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium " id="nav-link">The Studios</Button></a>
+                                        <a href="/studios"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium " id="nav-link">The Studios</Button></a>
                                     </li>
                                     <li
                                         className="sticky-item text-base cursor-pointer transition-all delay-75 hover:scale-105">
