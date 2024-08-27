@@ -2,7 +2,7 @@ import AboutImg from '../assets/about.jpg';
 
 const About = () => {
     return (
-        <section className="bg-abtBgColor py-28 lg:py-52">
+        <section className="bg-abtBgColor py-28 lg:py-44">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col lg:flex-row items-start justify-between  mx-3 lg:mx-20">
                     <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
