@@ -39,7 +39,7 @@ const Navbar = () => {
         // bg-[#feecdd]
         <nav className="navbar bg-[#ffffff] shadow-lg">
             <div className="max-w-7xl mx-auto">
-                <div className="navbar-container mx-5 lg:mx-20 xl:mx-36 py-7">
+                <div className="navbar-container mx-5 lg:mx-20 xl:mx-36 py-3">
                     {/* <!-- larger device navbar --> */}
                     <div className="hidden lg:block">
 
