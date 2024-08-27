@@ -9,7 +9,7 @@ function App() {
 
 
   return (
-    <div className='bg-bgColor'>
+    <div className='bg-white'>
       <Navbar />
       <Hero/>
       <Services/>

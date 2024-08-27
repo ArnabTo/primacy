@@ -19,6 +19,7 @@ export default {
         serviceTxtColor: '#F2D26D',
 
         //about
+        abtBgColor: '#FEF6ED',
         aboutTxtColor: '#F2D26D'
       },
 
