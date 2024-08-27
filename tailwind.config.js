@@ -7,6 +7,9 @@ export default {
   theme: {
     extend: {
       colors:{
+
+        primary: '',
+
         bgColor : '#FEF6ED',
 
         textColor: '#3D3D3D',
@@ -20,12 +23,17 @@ export default {
 
         //about
         abtBgColor: '#FEF6ED',
-        aboutTxtColor: '#F2D26D'
+        aboutTxtColor: '#F2D26D',
+
+        //conact
+        conTxtColor: '#564100',
+        contactInputBorder: '#F2D26D'
       },
 
       fontFamily: {
         manrope: ['Manrope', 'sans-serif'],
-        lato: ['Lato', 'sans-serif'], // Adding Bodoni Moda as a custom font
+        lato: ['Lato', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
     },
   },
