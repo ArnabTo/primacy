@@ -7,6 +7,7 @@ import PersonalTraining from './component/sub-routes/PersonalTraining.jsx'
 import Home from './component/Home.jsx'
 import PhysicalAssessments from './component/sub-routes/PhysicalAssessments.jsx'
 import NutritionalGuidance from './component/sub-routes/NutritionalGuidance.jsx'
+import BlogPost from './component/Blogs/BlogPost.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
         path: '/nutritional-guidance',
         element: <NutritionalGuidance/>,
       },
+      {
+        path: '/blogs/:slug',
+        element: <BlogPost />,
+      }
     ],
   }
 ])
