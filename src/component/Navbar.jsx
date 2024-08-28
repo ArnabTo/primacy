@@ -40,7 +40,7 @@ const Navbar = () => {
 
     return (
         // bg-[#feecdd]
-        <nav className="navbar bg-[#ffffff] shadow-lg py-3">
+        <nav className="navbar bg-[#ffffff] shadow-lg py-8">
             <div className="max-w-7xl mx-auto">
                 <div className="navbar-container mx-5 lg:mx-20 xl:mx-36 py-3">
                     {/* <!-- larger device navbar --> */}
@@ -54,7 +54,7 @@ const Navbar = () => {
                                 <ul className="flex justify-center items-center space-x-5">
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <a href="/"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Home</Button></a>
+                                        <a href="/"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Home</Button></a>
                                     </li>
                                     <li
                                         className="sticky-item text-base cursor-pointer transition-all delay-75 hover:scale-105">
@@ -65,20 +65,20 @@ const Navbar = () => {
                                             placement="bottom"
                                             arrow
                                         >
-                                            <Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Services</Button>
+                                            <Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Services</Button>
                                         </Dropdown>
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <Link to="blog-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Blog</Button></Link>
+                                        <Link to="blog-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Blog</Button></Link>
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <Link to="testimonial-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Testimonial</Button></Link>
+                                        <Link to="testimonial-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testimonial</Button></Link>
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <Link to="contact-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Contact</Button></Link>
+                                        <Link to="contact-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Contact</Button></Link>
                                     </li>
                                 </ul>
                             </div>
@@ -106,7 +106,7 @@ const Navbar = () => {
                                             <ul className="flex flex-col justify-center items-center space-y-10">
                                                 <li
                                                     className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <a href="/"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Home</Button></a>
+                                                    <a href="/"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Home</Button></a>
                                                 </li>
                                                 <li
                                                     className="sticky-item text-base cursor-pointer transition-all delay-75 hover:scale-105">
@@ -117,20 +117,20 @@ const Navbar = () => {
                                                         placement="bottom"
                                                         arrow
                                                     >
-                                                        <Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Services</Button>
+                                                        <Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Services</Button>
                                                     </Dropdown>
                                                 </li>
                                                 <li
                                                     className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <Link to="blog-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Blog</Button></Link>
+                                                    <Link to="blog-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Blog</Button></Link>
                                                 </li>
                                                 <li
                                                     className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <Link to="testimonial-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Testimonial</Button></Link>
+                                                    <Link to="testimonial-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testimonial</Button></Link>
                                                 </li>
                                                 <li
                                                     className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <Link to="contact-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-base font-medium" id="nav-link">Contact</Button></Link>
+                                                    <Link to="contact-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Contact</Button></Link>
                                                 </li>
                                             </ul>
                                         </div>
