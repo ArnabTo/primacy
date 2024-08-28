@@ -25,6 +25,10 @@ export default {
         abtBgColor: '#FEF6ED',
         aboutTxtColor: '#F2D26D',
 
+        //blogs
+        blogHeadTxt: '#F2D26D',
+        blogCardBg: '#FEF6ED',
+        
         //conact
         conTxtColor: '#f2d26d',
         contactInputBorder: '#F2D26D'
