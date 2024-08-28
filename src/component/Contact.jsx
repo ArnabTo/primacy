@@ -23,20 +23,20 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="mb-10 w-full">
-                        <form>
+                        <form  action="https://formspree.io/f/xwpeynwe" method="POST">
                             <div>
                                 <label className="font-poppins text-sm font-light ">Name</label>
-                                <Input className="py-2 border-contactInputBorder rounded-sm" type="text" id="contact-input" />
+                                <Input className="py-2 border-contactInputBorder rounded-sm" type="text" name="name" id="contact-input" />
                             </div>
                             <span className="w-full ">
                                 <label className="font-poppins text-sm font-light">Last Name</label>
-                                <Input className="w-full py-2 border-contactInputBorder rounded-sm" id="contact-input" />
+                                <Input className="w-full py-2 border-contactInputBorder rounded-sm" type="text" name="name" id="contact-input" />
                             </span>
                             <div className="mb-2">
                                 <label className="font-poppins text-sm font-light">Contact</label>
-                                <TextArea className="py-2 border-contactInputBorder rounded-sm" id="contact-input" />
+                                <TextArea className="py-2 border-contactInputBorder rounded-sm" id="contact-input" name="message"/>
                             </div>
-                            <button className="bg-transparent w-full border border-contactInputBorder py-2 rounded-sm text-sm font-medium hover:bg-[#FEF6ED]">Send</button>
+                            <button type="submit" className="bg-transparent w-full border border-contactInputBorder py-2 rounded-sm text-sm font-medium hover:bg-[#FEF6ED]">Send</button>
                         </form>
                     </div>
                 </div>

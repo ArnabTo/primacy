@@ -27,7 +27,7 @@ const Blogs = () => {
     }, [])
 
     return (
-        <div>
+        <div id="blog-section">
             <div className="max-w-7xl mx-auto">
                 <div>
                     <div className=' mt-36 mb-6 lg:mb-24'>
