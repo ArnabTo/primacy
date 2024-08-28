@@ -12,7 +12,7 @@ const Services = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-5">
-                    <a href=''>
+                    <a href='/personal-training'>
                         <div className="group">
                             <div className='overflow-hidden h-[25rem] '>
                                 <img
@@ -23,7 +23,7 @@ const Services = () => {
                             <p className="text-textColor text-lg lg:text-2xl text-start font-bold my-10 uppercase">Personal Training</p>
                         </div>
                     </a>
-                    <a href=''>
+                    <a href='/physical-assessments'>
                         <div className="group">
                             <div className='overflow-hidden h-[25rem] '>
                                 <img
@@ -34,7 +34,7 @@ const Services = () => {
                             <p className="text-textColor text-lg lg:text-2xl text-start font-bold my-10 uppercase">Physical Assessments</p>
                         </div>
                     </a>
-                    <a href=''>
+                    <a href='/nutritional-guidance'>
                         <div className="group">
                             <div className='overflow-hidden h-[25rem] '>
                                 <img
