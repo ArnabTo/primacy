@@ -70,15 +70,15 @@ const Navbar = () => {
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <Link to="blog-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Blog</Button></Link>
+                                        <Link to="blog-section" smooth={true} duration={2000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Blog</Button></Link>
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <Link to="testimonial-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testemunhos</Button></Link>
+                                        <Link to="testimonial-section" smooth={true} duration={2000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testemunhos</Button></Link>
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <Link to="contact-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Contactos</Button></Link>
+                                        <Link to="contact-section" smooth={true} duration={2000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Contactos</Button></Link>
                                     </li>
                                 </ul>
                             </div>
@@ -122,15 +122,15 @@ const Navbar = () => {
                                                 </li>
                                                 <li
                                                     className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <Link to="blog-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Blog</Button></Link>
+                                                    <Link to="blog-section" smooth={true} duration={2000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Blog</Button></Link>
                                                 </li>
                                                 <li
                                                     className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <Link to="testimonial-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testemunhos</Button></Link>
+                                                    <Link to="testimonial-section" smooth={true} duration={2000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testemunhos</Button></Link>
                                                 </li>
                                                 <li
                                                     className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <Link to="contact-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Contactos</Button></Link>
+                                                    <Link to="contact-section" smooth={true} duration={2000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Contactos</Button></Link>
                                                 </li>
                                             </ul>
                                         </div>
