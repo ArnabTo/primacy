@@ -3,6 +3,25 @@
   color: #F2D26D !important;
 }
 
+#carousel-bg{
+  background: url('./assets/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.5);
+}
+#carousel2-bg{
+  background: url('./assets/hero2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.5);
+}
+#carousel3-bg{
+  background: url('./assets/hero3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.5);
+}
+
 #contact-input:hover{
   border-color: #F2D26D;
   background-color: #FEF6ED;
@@ -22,5 +41,6 @@
   background-color: #FEF6ED;
   color: #F2D26D;
 }
+
 
 /* #ECD444 */
