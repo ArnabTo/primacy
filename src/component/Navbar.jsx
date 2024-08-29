@@ -16,7 +16,7 @@ const Navbar = () => {
             key: '1',
             label: (
                 <a className="text-base font-medium px-5" rel="noopener noreferrer" href="/personal-training">
-                    Personal Training
+                    Treino personalizado 
                 </a>
             ),
         },
@@ -24,7 +24,7 @@ const Navbar = () => {
             key: '2',
             label: (
                 <a className="text-base font-medium px-5" rel="noopener noreferrer" href="/physical-assessments">
-                    Physical Assessments
+                    Avaliações físicas
                 </a>
             ),
         },
@@ -32,7 +32,7 @@ const Navbar = () => {
             key: '3',
             label: (
                 <a className="text-base font-medium px-5" rel="noopener noreferrer" href="/nutritional-guidance">
-                    Nutritional Guidance
+                   Acompanhamento nutricional
                 </a>
             ),
         },
@@ -65,7 +65,7 @@ const Navbar = () => {
                                             placement="bottom"
                                             arrow
                                         >
-                                            <Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Services</Button>
+                                            <Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Serviços</Button>
                                         </Dropdown>
                                     </li>
                                     <li
@@ -74,11 +74,11 @@ const Navbar = () => {
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <Link to="testimonial-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testimonial</Button></Link>
+                                        <Link to="testimonial-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testemunhos</Button></Link>
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <Link to="contact-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Contact</Button></Link>
+                                        <Link to="contact-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Contactos</Button></Link>
                                     </li>
                                 </ul>
                             </div>
@@ -117,7 +117,7 @@ const Navbar = () => {
                                                         placement="bottom"
                                                         arrow
                                                     >
-                                                        <Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Services</Button>
+                                                        <Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Serviços</Button>
                                                     </Dropdown>
                                                 </li>
                                                 <li
@@ -126,11 +126,11 @@ const Navbar = () => {
                                                 </li>
                                                 <li
                                                     className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <Link to="testimonial-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testimonial</Button></Link>
+                                                    <Link to="testimonial-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testemunhos</Button></Link>
                                                 </li>
                                                 <li
                                                     className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <Link to="contact-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Contact</Button></Link>
+                                                    <Link to="contact-section" smooth={true} duration={1000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Contactos</Button></Link>
                                                 </li>
                                             </ul>
                                         </div>
