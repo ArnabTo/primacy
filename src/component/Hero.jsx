@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import HeroBg2 from '../assets/hero2.jpg'
 
 const Hero = () => {
@@ -7,11 +8,11 @@ const Hero = () => {
 
             <div className="relative z-10 flex flex-col justify-center items-center h-full text-white">
                 <div className='flex flex-col justify-center items-center space-y-5'>
-                    <h1 className="text-5xl font-extrabold text-center font-lato">Your New Beginning <span className='text-heroHeadline'>Starts Here!</span></h1>
-                    <p className="mt-4 text-xl text-center font-lato">Discover how our studio can transform your approach to fitness <br></br> and well-being</p>
+                    <h1 className="text-5xl font-extrabold text-center font-lato">O seu Novo Começo  <span className='text-heroHeadline'>Começa Aqui!</span></h1>
+                    <p className="mt-4 text-xl text-center font-lato">Descubra como nosso estúdio pode transformar a sua abordagem ao fitness  <br></br> e ao bem-estar</p>
                     <button
                         className="bg-white lg:w-1/3 text-textColor px-4 py-3 rounded-md text-base font-semibold font-lato hover:bg-btnBg hover:text-white transition-all delay-75">
-                            <a href='#'>Book Your Free Evaluation</a>
+                            <Link to='contact-section' smooth={true} duration={2000}>Marque a sua avaliação gratuita</Link>
                     </button>
                 </div>
             </div>
