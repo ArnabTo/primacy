@@ -17,7 +17,7 @@ const Services = () => {
                             <div className='overflow-hidden h-[16rem] lg:h-[20rem]'>
                                 <img
                                     src={Service1}
-                                    className="w-full h-full object-cover transform scale-110 transition-transform duration-[800ms] ease-[cubic-bezier(0.5,0,0.1,1)] group-hover:scale-100 brightness-50 group-hover:brightness-100"
+                                    className="w-full h-full object-cover transform scale-110 transition-transform duration-[800ms] ease-[cubic-bezier(0.5,0,0.1,1)] group-hover:scale-100 brightness-100 group-hover:brightness-50"
                                 />
                                 <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                                     <p className="text-white text-lg lg:text-2xl font-bold uppercase">Personal Training</p>
@@ -30,7 +30,7 @@ const Services = () => {
                             <div className='overflow-hidden h-[16rem] lg:h-[20rem]'>
                                 <img
                                     src={Service2}
-                                    className="w-full h-full object-cover transform scale-110 transition-transform duration-[800ms] ease-[cubic-bezier(0.5,0,0.1,1)] group-hover:scale-100 brightness-50 group-hover:brightness-100"
+                                    className="w-full h-full object-cover transform scale-110 transition-transform duration-[800ms] ease-[cubic-bezier(0.5,0,0.1,1)] group-hover:scale-100 brightness-100 group-hover:brightness-50"
                                 />
                                 <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                                     <p className="text-white text-lg lg:text-2xl font-bold uppercase">Physical Assessments</p>
@@ -43,7 +43,7 @@ const Services = () => {
                             <div className='overflow-hidden h-[16rem] lg:h-[20rem]'>
                                 <img
                                     src={Service3}
-                                    className="w-full h-full object-cover transform scale-110 transition-transform duration-[800ms] ease-[cubic-bezier(0.5,0,0.1,1)] group-hover:scale-100 brightness-50 group-hover:brightness-100"
+                                    className="w-full h-full object-cover transform scale-110 transition-transform duration-[800ms] ease-[cubic-bezier(0.5,0,0.1,1)] group-hover:scale-100 brightness-100 group-hover:brightness-50"
                                 />
                                 <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                                     <p className="text-white text-lg lg:text-2xl font-bold uppercase">Nutritional Guidance</p>
