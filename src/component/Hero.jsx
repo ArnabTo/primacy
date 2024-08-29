@@ -5,9 +5,9 @@ const Hero = () => {
     return (
             <div className="relative w-full h-[40rem] lg:h-screen">
                 <Carousel autoplay effect="fade" className="w-full h-full">
-                    <div className="relative w-full h-[40rem] lg:h-screen" id='carousel-bg'>
-                    </div>
                     <div className="relative w-full h-[40rem] lg:h-screen" id='carousel2-bg'>
+                    </div>
+                    <div className="relative w-full h-[40rem] lg:h-screen" id='carousel-bg'>
                     </div>
                     <div className="relative w-full h-[40rem] lg:h-screen" id='carousel3-bg'>
                     </div>
