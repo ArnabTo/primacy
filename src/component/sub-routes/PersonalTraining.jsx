@@ -4,11 +4,11 @@ const PersonalTraining = () => {
     return (
         <section className="bg-white mb-44">
                    <div className=' mt-20 my-24'>
-                    <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Personal <span className='text-serviceTxtColor'>Training</span></h1>
+                    <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Treino <span className='text-serviceTxtColor'>Personalizado</span></h1>
                     <p className='text-textColor text-lg lg:text-xl text-center font-manrope mx-16'>
-                    Training sessions tailored to your specific needs and goals. With an individualized training plan, you will receive direct 
+                    Sessões de treino adaptadas às suas necessidades e objetivos específicos. Com um plano de treino individualizado, você receberá orientação direta 
                       <br className="hidden lg:block"></br>
-                        guidance to maximize your results and efficiently achieve your goals.</p>
+                      para maximizar seus resultados e alcançar suas metas de forma eficiente.</p>
                 </div>
             <div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 h-full">

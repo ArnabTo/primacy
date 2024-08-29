@@ -4,11 +4,11 @@ const PhysicalAssessments = () => {
     return (
         <section className="bg-white mb-44">
             <div className=' mt-20 my-24'>
-                <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Physical <span className='text-serviceTxtColor'>Assessments</span></h1>
+                <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Avaliações <span className='text-serviceTxtColor'>Físicas</span></h1>
                 <p className='text-textColor text-lg lg:text-xl text-center font-manrope mx-16'>
-                    Detailed analyses of your initial physical condition to create an effective training plan. Includes measurements of strength, flexibility, body composition, and
+                Análises detalhadas do seu condicionamento físico inicial para criar um plano de treino eficaz. Inclui medições de força, flexibilidade, composição corporal e
                     <br className="hidden lg:block"></br>
-                    other essential parameters to monitor your progress.</p>
+                    outros parâmetros essenciais para monitorar seu progresso.</p>
             </div>
             <div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 h-full">
