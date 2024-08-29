@@ -8,7 +8,7 @@ const Services = () => {
             <div className='max-w-7xl mx-auto'>
                 <div className='mt-20 my-24'>
                     <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Os nossos  <span className='text-serviceTxtColor'>serviços</span></h1>
-                    <p className='text-textColor text-sm lg:text-xl text-center font-manrope mx-3'>Unlock your potential with our expert personal training, assessments, <br /> and nutritional guidance.</p>
+                    <p className='text-textColor text-sm lg:text-xl text-center font-manrope mx-3'>Desbloqueie o seu potencial com a nossa formação pessoal especializada, avaliações, <br /> e orientação nutricional.</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-5">

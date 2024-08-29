@@ -31,7 +31,7 @@ const Blogs = () => {
             <div className="max-w-7xl mx-auto">
                 <div>
                     <div className=' mt-36 mb-6 lg:mb-24'>
-                        <h1 className="text-blogHeadTxt mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Blogs</h1>
+                        <h1 className="text-blogHeadTxt mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Blogues</h1>
                     </div>
 
                     <div>
