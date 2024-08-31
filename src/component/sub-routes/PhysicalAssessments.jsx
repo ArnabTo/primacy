@@ -4,8 +4,8 @@ const PhysicalAssessments = () => {
     return (
         <section className="bg-white mb-44">
             <div className=' mt-20 my-24'>
-                <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Avaliações <span className='text-serviceTxtColor'>Físicas</span></h1>
-                <p className='text-textColor text-lg lg:text-xl text-center font-manrope mx-16'>
+                <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-tinos uppercase mb-3">Avaliações <span className='text-serviceTxtColor'>Físicas</span></h1>
+                <p className='text-textColor text-lg lg:text-xl text-center font-tinos mx-16'>
                 Análises detalhadas do seu condicionamento físico inicial para criar um plano de treino eficaz. Inclui medições de força, flexibilidade, composição corporal e
                     <br className="hidden lg:block"></br>
                     outros parâmetros essenciais para monitorar seu progresso.</p>

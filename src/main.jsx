@@ -8,6 +8,8 @@ import Home from './component/Home.jsx'
 import PhysicalAssessments from './component/sub-routes/PhysicalAssessments.jsx'
 import NutritionalGuidance from './component/sub-routes/NutritionalGuidance.jsx'
 import BlogPost from './component/Blogs/BlogPost.jsx'
+import AllBlogs from './component/Blogs/AllBlogs.jsx'
+import Testimonies from './component/Testimonies.jsx'
 
 const router = createBrowserRouter([
   {
@@ -31,9 +33,17 @@ const router = createBrowserRouter([
         element: <NutritionalGuidance/>,
       },
       {
+        path: '/blogs',
+        element: <AllBlogs/>,
+      },
+      {
         path: '/blogs/:slug',
         element: <BlogPost />,
-      }
+      },
+      {
+        path: '/testimonials',
+        element: <Testimonies/>,
+      },
     ],
   }
 ])

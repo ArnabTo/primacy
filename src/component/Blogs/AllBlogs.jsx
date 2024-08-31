@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 import client from "../../client";
 import BlogCard from "./BlogCard";
-const Blogs = () => {
+
+const AllBlogs = () => {
 
     const [blogs, setBlogs] = useState([]);
 
@@ -26,9 +28,9 @@ const Blogs = () => {
     }, [])
 
     return (
-        <div id="blog-section">
+        <section className="mb-44">
             <div className="max-w-7xl mx-auto">
-                <div>
+            <div>
                     <div className=' mt-36 mb-6 lg:mb-24'>
                         <h1 className="text-blogHeadTxt mt-20 text-center text-3xl lg:text-4xl font-bold font-tinos uppercase mb-3">Blogs</h1>
                     </div>
@@ -47,8 +49,8 @@ const Blogs = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
-export default Blogs;
+export default AllBlogs;

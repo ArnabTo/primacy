@@ -40,15 +40,15 @@ const Navbar = () => {
 
     return (
         // bg-[#feecdd]
-        <nav className="navbar bg-[#ffffff] shadow-lg py-8">
+        <nav className="navbar bg-[#ffffff] py-6">
             <div className="max-w-7xl mx-auto">
-                <div className="navbar-container mx-5 lg:mx-20 xl:mx-36 py-3">
+                <div className="navbar-container mx-5 lg:mx-20 xl:mx-36">
                     {/* <!-- larger device navbar --> */}
                     <div className="hidden lg:block">
 
                         <div className="flex justify-between items-center gap-24 animate__animated animate__bounceIn">
                             <div className="nav-logo flex items-center gap-1 transition-all delay-75">
-                                <a href="/"><img src={Logo} className="w-20" alt="logo" /></a>
+                                <a href="/"><img src={Logo} className="w-28" alt="logo" /></a>
                             </div>
                             <div className="nav-menues">
                                 <ul className="flex justify-center items-center space-x-5">
@@ -70,11 +70,11 @@ const Navbar = () => {
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <Link to="blog-section" smooth={true} duration={2000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Blog</Button></Link>
+                                        <a href="/blogs"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Blog</Button></a>
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                        <Link to="testimonial-section" smooth={true} duration={2000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testemunhos</Button></Link>
+                                        <a href="/testimonials"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testemunhos</Button></a>
                                     </li>
                                     <li
                                         className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">

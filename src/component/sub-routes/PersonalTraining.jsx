@@ -4,8 +4,8 @@ const PersonalTraining = () => {
     return (
         <section className="bg-white mb-44">
                    <div className=' mt-20 my-24'>
-                    <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-3">Treino <span className='text-serviceTxtColor'>Personalizado</span></h1>
-                    <p className='text-textColor text-lg lg:text-xl text-center font-manrope mx-16'>
+                    <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-tinos uppercase mb-3">Treino <span className='text-serviceTxtColor'>Personalizado</span></h1>
+                    <p className='text-textColor text-lg lg:text-xl text-center font-tinos mx-16'>
                     Sessões de treino adaptadas às suas necessidades e objetivos específicos. Com um plano de treino individualizado, você receberá orientação direta 
                       <br className="hidden lg:block"></br>
                       para maximizar seus resultados e alcançar suas metas de forma eficiente.</p>

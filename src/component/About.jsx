@@ -1,5 +1,4 @@
-import AboutImg from '../assets/about.jpg';
-
+import AbtImg from '../assets/abt.jpg'
 const About = () => {
     return (
         <section className="bg-abtBgColor py-28 lg:py-44">
@@ -7,7 +6,7 @@ const About = () => {
                 <div className="flex flex-col lg:flex-row items-start justify-between  mx-3 lg:mx-20">
                     <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
                         <h2 className="text-2xl text-aboutTxtColor uppercase mb-10">Sobre Nós</h2>
-                        <p className="text-lg text-gray-700 leading-relaxed tracking-wider font-normal">
+                        <p className="text-xl text-gray-700 leading-relaxed tracking-wider font-normal font-tinos">
                             <span className="block text-2xl lg:text-4xl font-bold uppercase">
                                 Eu sou a Carolina, tenho cerca de 7 anos de experiência como personal trainer.
                             </span>
@@ -21,7 +20,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className="mx-auto">
-                        <img src={AboutImg} alt="About Carolina" className="w-full h-auto object-cover rounded-lg shadow-lg" />
+                        <img src={AbtImg} alt="About Carolina" className="w-full h-auto object-cover rounded-lg shadow-lg" />
                     </div>
                 </div>
             </div>

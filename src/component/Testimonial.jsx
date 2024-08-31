@@ -32,8 +32,8 @@ const Testimonials = () => {
         <div className="pt-5 mb-36 lg:py-16" id='testimonial-section'>
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <div className=' mt-24 mb-6 lg:mb-12'>
-                    <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-manrope uppercase mb-2"><span className='text-serviceTxtColor'>Testemunhos</span></h1>
-                    <p className='text-textColor text-sm lg:text-xl text-center font-manrope mx-3'>O que os nossos clientes têm a dizer sobre nós.</p>
+                    <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-tinos uppercase mb-2"><span className='text-serviceTxtColor'>Testemunhos</span></h1>
+                    <p className='text-textColor text-sm lg:text-xl text-center font-tinos mx-3'>O que os nossos clientes têm a dizer sobre nós.</p>
                 </div>
                 <div className="relative">
                     <Carousel ref={carouselRef} dots={false} className="text-left">

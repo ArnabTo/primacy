@@ -42,7 +42,7 @@ const BlogPost = () => {
     return (
         <div className="mt-16 md:mt-32 mb-20 md:mb-60">
             <div className="max-w-7xl mx-auto px-4 md:px-8">
-                <h1 className="text-2xl md:text-4xl text-center font-bold mb-6 font-manrope">
+                <h1 className="text-2xl md:text-4xl text-center font-bold mb-6 font-tinos">
                     {blog.title}
                 </h1>
                 <div className="overflow-hidden rounded-md">
@@ -52,7 +52,7 @@ const BlogPost = () => {
                         alt={blog.mainImage?.alt}
                     />
                 </div>
-                <div className="mt-10 w-full md:w-3/4 mx-auto text-xl font-manrope">
+                <div className="mt-10 w-full md:w-3/4 mx-auto text-xl font-tinos">
                     <PortableText value={blog.body} />
                 </div>
             </div>

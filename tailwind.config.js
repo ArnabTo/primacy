@@ -38,6 +38,7 @@ export default {
         manrope: ['Manrope', 'sans-serif'],
         lato: ['Lato', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
+        tinos: ['Tinos', 'sans'],
       },
     },
   },
