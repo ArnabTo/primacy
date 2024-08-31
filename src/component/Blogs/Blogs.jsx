@@ -7,7 +7,7 @@ const Blogs = () => {
 
     useEffect(() => {
         client.fetch(
-            `*[_type == "post"]{
+            `*[_type == "post"] | order(_createdAt desc) [0...3]{
                 title,
                 slug,
                 body,
