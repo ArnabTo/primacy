@@ -1,4 +1,7 @@
 
+#nav-link{
+  font-family:'Tinos', 'sans';
+}
 #nav-link:hover{
   color: #F2D26D !important;
 }
