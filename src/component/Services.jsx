@@ -11,10 +11,10 @@ const Services = () => {
                     <p className='text-textColor text-sm lg:text-xl text-center font-tinos mx-3'>Desbloqueie o seu potencial com a nossa formação pessoal especializada, avaliações, <br /> e orientação nutricional.</p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5 mx-10">
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5 mx-5 lg:mx-10">
                     <a href='/personal-training'>
                         <div className="group relative">
-                            <div className='overflow-hidden w-[15rem] h-[15rem] lg:w-[20rem] lg:h-[20rem] mx-auto  rounded-md'> 
+                            <div className='overflow-hidden w-[15rem] h-[15rem] lg:w-[19rem] lg:h-[20rem] xl:w-[23rem] xl:h-[22rem] mx-auto  rounded-md'> 
                                 <img
                                     src={Service1}
                                     className="w-full h-full object-cover transform scale-110 transition-transform duration-[800ms] ease-[cubic-bezier(0.5,0,0.1,1)] group-hover:scale-100 brightness-100 group-hover:brightness-50"
@@ -27,7 +27,7 @@ const Services = () => {
                     </a>
                     <a href='/physical-assessments'>
                         <div className="group relative">
-                            <div className='overflow-hidden w-[15rem] h-[15rem] lg:w-[20rem] lg:h-[20rem] mx-auto rounded-md'> 
+                            <div className='overflow-hidden w-[15rem] h-[15rem] lg:w-[19rem] lg:h-[20rem] xl:w-[23rem] xl:h-[22rem] mx-auto rounded-md'> 
                                 <img
                                     src={Service2}
                                     className="w-full h-full object-cover transform scale-110 transition-transform duration-[800ms] ease-[cubic-bezier(0.5,0,0.1,1)] group-hover:scale-100 brightness-100 group-hover:brightness-50"
@@ -40,7 +40,7 @@ const Services = () => {
                     </a>
                     <a href='/nutritional-guidance'>
                         <div className="group relative">
-                            <div className='overflow-hidden w-[15rem] h-[15rem] lg:w-[20rem] lg:h-[20rem] mx-auto rounded-md'>
+                            <div className='overflow-hidden w-[15rem] h-[15rem] lg:w-[19rem] lg:h-[20rem] xl:w-[23rem] xl:h-[22rem] mx-auto rounded-md'>
                                 <img
                                     src={Service3}
                                     className="w-full h-full object-cover transform scale-110 transition-transform duration-[800ms] ease-[cubic-bezier(0.5,0,0.1,1)] group-hover:scale-100 brightness-100 group-hover:brightness-50"
