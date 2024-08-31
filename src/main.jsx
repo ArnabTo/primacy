@@ -10,11 +10,13 @@ import NutritionalGuidance from './component/sub-routes/NutritionalGuidance.jsx'
 import BlogPost from './component/Blogs/BlogPost.jsx'
 import AllBlogs from './component/Blogs/AllBlogs.jsx'
 import Testimonies from './component/Testimonies.jsx'
+import Error from './component/Error.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <Error/>,
     children: [
       {
         path: '/',
