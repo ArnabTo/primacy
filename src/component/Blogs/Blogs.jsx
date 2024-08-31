@@ -42,7 +42,9 @@ const Blogs = () => {
                                     }
                                 </div>
                                 :
-                                <p>No blog is available</p>
+                               <div className="flex justify-center items-center">
+                                 <p className="text-center text-2xl ">No blog is available</p>
+                               </div>
                         }
                     </div>
                 </div>
