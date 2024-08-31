@@ -17,7 +17,7 @@ const BlogCard = ({ blog }) => {
                     />
                 </div>
                 <div className="text-start text-xl mt-4 md:mt-6 flex-1 px-4 pb-7">
-                    <h1 className="font-semibold text-base md:text-lg h-12 md:h-16 overflow-hidden">
+                    <h1 className="font-semibold text-base md:text-lg h-12 md:h-16 overflow-hidden font-tinos">
                         {title}
                     </h1>
                 </div>
