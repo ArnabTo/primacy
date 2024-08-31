@@ -46,7 +46,7 @@ const Services = () => {
                                     className="w-full h-full object-cover transform scale-110 transition-transform duration-[800ms] ease-[cubic-bezier(0.5,0,0.1,1)] group-hover:scale-100 brightness-100 group-hover:brightness-50"
                                 />
                                 <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-300 opacity-0 group-hover:opacity-100">
-                                    <p className="text-white text-sm lg:text-lg font-bold uppercase">Acompanhamento nutricional</p>
+                                    <p className="text-white text-sm lg:text-lg font-bold uppercase text-center">Acompanhamento <br></br>nutricional</p>
                                 </div>
                             </div>
                         </div>
