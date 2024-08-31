@@ -44,11 +44,11 @@ const Testimonials = () => {
                     <Carousel ref={carouselRef} dots={false} className="text-left">
                         {testimonials.map((testimonial, index) => (
                             <div key={index} className="p-8">
-                                <div className="flex justify-center mb-4"> {/* Flexbox applied here to center the avatar */}
-                                    <Avatar size={70} src={testimonial.avatar} />
-                                </div>
                                 <p className="text-lg text-center lg:text-start italic text-gray-700 mb-4 font-tinos">"{testimonial.testimonial}"</p>
                                 <p className="text-base text-center lg:text-start font-semibold text-gray-800 font-tinos">— {testimonial.author}</p>
+                                <div className="flex justify-center mt-4"> {/* Flexbox applied here to center the avatar */}
+                                    <Avatar size={70} src={testimonial.avatar} />
+                                </div>
                             </div>
                         ))}
                     </Carousel>
