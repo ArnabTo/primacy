@@ -1,5 +1,4 @@
 import { Link } from 'react-scroll';
-import { Carousel } from 'antd';
 import HeroBg from '../assets/banner.jpg'
 const Hero = () => {
     return (

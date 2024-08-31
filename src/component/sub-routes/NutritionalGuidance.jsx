@@ -12,12 +12,12 @@ const NutritionalGuidance = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 h-full">
                         <div className="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
                             <span className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                <img src="https://img.freepik.com/free-photo/close-up-nutritionist-writing-prescription_23-2148302092.jpg?w=1380&t=st=1724779826~exp=1724780426~hmac=bfeb60c413731494cbc6595121aacd7a61934a40eb7bd195040f810324ec1f5e" alt="" className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" />
+                                <img src="https://img.freepik.com/free-photo/medium-shot-doctor-showing-results-patient_23-2148302133.jpg?t=st=1725130497~exp=1725134097~hmac=9e5abf7cb3e5e1e851eca009c802fc97f4cd63252bf4eb0663b831751638e0fe&w=1380" alt="" className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" />
                             </span>
                         </div>
                         <div className="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
                             <span className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
-                                <img src="https://img.freepik.com/free-photo/healthy-eating-food-lifestyle-organic-wellness-graphic_53876-128063.jpg?w=1380&t=st=1724779696~exp=1724780296~hmac=678222c1f796527fb70f9b1d2f64a180c56b415dc9d495f55e5d6677abd13065" alt="" className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" />
+                                <img src="https://img.freepik.com/free-photo/healthy-natural-super-food_53876-123908.jpg?t=st=1725130559~exp=1725134159~hmac=170f94cc32762640b039e7c840ddba5d440daaa5a33763516ecbd08d68600f45&w=1380" alt="" className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" />
                             </span>
                             <div className="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
                                 <span className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
