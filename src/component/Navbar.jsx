@@ -16,7 +16,7 @@ const Navbar = () => {
             key: '1',
             label: (
                 <a className="text-base font-medium px-5" rel="noopener noreferrer" href="/personal-training">
-                    Treino personalizado 
+                    Treino personalizado
                 </a>
             ),
         },
@@ -32,7 +32,7 @@ const Navbar = () => {
             key: '3',
             label: (
                 <a className="text-base font-medium px-5" rel="noopener noreferrer" href="/nutritional-guidance">
-                   Acompanhamento nutricional
+                    Acompanhamento nutricional
                 </a>
             ),
         },
@@ -122,11 +122,11 @@ const Navbar = () => {
                                                 </li>
                                                 <li
                                                     className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <Link to="blog-section" smooth={true} duration={2000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Blog</Button></Link>
+                                                 <a href="/blogs"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Blog</Button></a>
                                                 </li>
                                                 <li
                                                     className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
-                                                    <Link to="testimonial-section" smooth={true} duration={2000}><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testemunhos</Button></Link>
+                                                    <a href="/testimonials"><Button className="px-2 rounded-sm bg-transparent border-none text-textColor text-lg font-medium" id="nav-link">Testemunhos</Button></a>
                                                 </li>
                                                 <li
                                                     className="sticky-item cursor-pointer transition-all delay-75 hover:scale-105">
