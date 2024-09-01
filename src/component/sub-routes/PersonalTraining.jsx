@@ -7,7 +7,7 @@ const PersonalTraining = () => {
                 <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-tinos uppercase mb-3">Treino <span className='text-serviceTxtColor'>Personalizado</span></h1>
                 <p className='text-textColor text-lg lg:text-xl text-center font-tinos mx-5 md:mx-12'>
                     Sessões de treino adaptadas às suas necessidades e objetivos específicos. Com um plano de treino <br className="hidden lg:block"></br> individualizado, você receberá orientação direta
-                    para maximizar seus <br className="hidden md:block lg:hidden"></br> resultados e <br className="hidden lg:block"></br> alcançar suas metas de forma eficiente.</p>
+                    para maximizar os seus <br className="hidden md:block lg:hidden"></br> resultados e <br className="hidden lg:block"></br> alcançar as suas metas de forma eficiente.</p>
                 <div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 h-full">
                         <div className="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
