@@ -3,12 +3,12 @@ const About = () => {
     return (
         <section className="bg-abtBgColor py-28 lg:py-44">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex flex-col lg:flex-row items-start justify-between  mx-3 lg:mx-20">
-                    <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
+                <div className="flex flex-col lg:flex-row items-center justify-between  mx-3 lg:mx-20">
+                    <div className="lg:w-3/4 xl:w-1/2 mb-8 lg:mb-0 lg:pr-8">
                         <h2 className="text-2xl text-aboutTxtColor uppercase mb-10">Sobre Nós</h2>
                         <p className="text-xl text-gray-700 leading-relaxed tracking-wider font-normal font-tinos">
                             <span className="block text-2xl lg:text-4xl font-bold uppercase">
-                                Eu sou a Carolina, tenho cerca de 7 anos de experiência como personal trainer.
+                                Eu sou a Carolina, tenho cerca de 7 anos de experiência como personal trainer
                             </span>
                             <br></br>
                             Estou comprometida em oferecer um suporte especializado que vai além do treino físico.

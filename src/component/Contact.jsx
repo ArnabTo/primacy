@@ -19,7 +19,7 @@ const Contact = () => {
                         </div>
 
                         <div>
-                            <p className="text-lg font-light font-tinos"><span className="text-xl font-bold font-tinos">Dwelling</span><br></br>Leiria, 1C</p>
+                            <p className="text-lg font-light font-tinos"><span className="text-xl font-bold font-tinos">Morada</span><br></br>Leiria, 1C</p>
                         </div>
                     </div>
                     <div className="mb-10 w-full">
