@@ -9,7 +9,7 @@ const NutritionalGuidance = () => {
                 <p className='text-textColor text-lg lg:text-xl text-center font-tinos mx-5 md:mx-12'>
                     Orientação personalizada para melhorar seus hábitos alimentares e complementar seu plano de treino. Receba conselhos <br className="hidden xl:block"></br>  sobre nutrição  balanceada e
                
-                    estratégias para <br className="hidden md:block lg:hidden"></br>otimizar os seus resultados e promover um <br className="hidden lg:block"></br> estilo de vida saudável.</p>
+                    estratégias para <br className="hidden md:block lg:hidden"></br>otimizar os seus resultados e promover um <br className="hidden lg:block"></br> estilo de vida saudável</p>
                 <div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 h-full">
                         <div className="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">

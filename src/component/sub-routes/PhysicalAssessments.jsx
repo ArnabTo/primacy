@@ -9,7 +9,7 @@ const PhysicalAssessments = () => {
                 <h1 className="text-textColor mt-20 text-center text-3xl lg:text-4xl font-bold font-tinos uppercase mb-3">Avaliações <span className='text-serviceTxtColor'>Físicas</span></h1>
                 <p className='text-textColor text-lg lg:text-xl text-center font-tinos mx-5 md:mx-12'>
                     Análises detalhadas do seu condicionamento físico inicial para criar um plano de treino eficaz. Inclui medições de força, <br className="hidden xl:block"></br> flexibilidade, composição corporal e
-                    outros  <br className="hidden md:block lg:hidden"></br> parâmetros essenciais para monitorizar <br className="hidden lg:block"></br> seu progresso.</p>
+                    outros  <br className="hidden md:block lg:hidden"></br> parâmetros essenciais para monitorizar <br className="hidden lg:block"></br> seu progresso</p>
                 <div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 h-full">
                         <div className="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
