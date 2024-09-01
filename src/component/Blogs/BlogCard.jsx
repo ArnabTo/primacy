@@ -1,10 +1,7 @@
 import { Link } from "react-router-dom";
 
 const BlogCard = ({ blog }) => {
-    console.log(blog);
     const { title, mainImage, slug } = blog;
-
-    console.log(slug)
 
     return (
         <Link to={`/blogs/${slug?.current}`}>

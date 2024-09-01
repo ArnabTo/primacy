@@ -20,7 +20,6 @@ const Blogs = () => {
                 },
               }`
         ).then(data => {
-            console.log(data)
             setBlogs(data)
         }).catch(err => console.log(err));
     }, [])
