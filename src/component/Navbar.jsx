@@ -46,10 +46,10 @@ const Navbar = () => {
                     {/* <!-- larger device navbar --> */}
                     <div className="hidden lg:block">
 
-                        <div className="flex justify-between items-center gap-24 animate__animated animate__bounceIn">
-                            <div className="nav-logo flex items-center gap-1 transition-all delay-75">
+                        <div className="flex justify-center items-center gap-24 animate__animated animate__bounceIn">
+                            {/* <div className="nav-logo flex items-center gap-1 transition-all delay-75">
                                 <a href="/"><img src={Logo} className="w-28" alt="logo" /></a>
-                            </div>
+                            </div> */}
                             <div className="nav-menues">
                                 <ul className="flex justify-center items-center space-x-5">
                                     <li
