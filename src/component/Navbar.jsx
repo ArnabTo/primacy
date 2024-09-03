@@ -86,10 +86,10 @@ const Navbar = () => {
                     </div>
                     {/* <!-- small device nav --> */}
                     <div className="block lg:hidden">
-                        <div className="flex justify-between">
-                            <div className="nav-logo flex gap-1">
+                        <div className="flex justify-center">
+                            {/* <div className="nav-logo flex gap-1">
                                 <img src={Logo} className="w-20" alt="logo" />
-                            </div>
+                            </div> */}
                             <div className="flex">
                                 <button onClick={toggleMenu} aria-label="Menu" className="menu-toggler text-black">
                                     <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -99,7 +99,7 @@ const Navbar = () => {
                                     </svg>
                                 </button>
                                 <div
-                                    className={`hamburger-menu flex flex-col gap-3 absolute top-24 right-1 w-full mx-auto rounded-md z-50 transition-all duration-300 ease-in-out transform ${isMenuOpen ? 'max-h-screen opacity-100 translate-y-0' : 'max-h-0 opacity-0 -translate-y-5'
+                                    className={`hamburger-menu flex flex-col gap-3 absolute top-20 right-1 w-full mx-auto rounded-md z-50 transition-all duration-300 ease-in-out transform ${isMenuOpen ? 'max-h-screen opacity-100 translate-y-0' : 'max-h-0 opacity-0 -translate-y-5'
                                         } overflow-hidden`}>
                                     <div className="bg-white p-5 rounded-md">
                                         <div className="nav-menues">
