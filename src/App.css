@@ -1,6 +1,9 @@
 #nav-link {
   font-family: 'Tinos', 'sans';
   box-shadow: none;
+  border: none;
+  font-weight: 400;
+  font-size: larger;
 }
 
 #nav-link:hover {
